@@ -1,0 +1,4 @@
+service_account_airflow_etl.json
+/__pycache__
+.env
+.venv
