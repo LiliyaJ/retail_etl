@@ -1,4 +1,6 @@
-service_account_airflow_etl.json
+*.json
 /__pycache__
 .env
 .venv
+*.pyc
+.DS_Store
