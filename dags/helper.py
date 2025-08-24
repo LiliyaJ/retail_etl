@@ -20,3 +20,15 @@ def extract_orders_data():
     # Process all 50,000 orders without aggregation
     print("Extracted all order records!")
     return "success"
+
+def load_to_bigquery():
+    """Load orders data to BigQuery"""
+    print("Loading data to BigQuery...")
+    print("Data loaded successfully!")
+    return "success"
+
+def send_notification():
+    """Send success notification"""
+    print("Sending notification email...")
+    print("Notification sent!")
+    return "success"
