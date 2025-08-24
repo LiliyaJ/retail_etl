@@ -1,5 +1,4 @@
 *.json
-/__pycache__
 __pycache__/
 .env
 .venv
@@ -8,4 +7,3 @@ __pycache__/
 logs/
 airflow.db
 *.pid
-*.pyc
