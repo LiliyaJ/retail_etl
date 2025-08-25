@@ -1,0 +1,10 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args:
+      [
+        'rsync',
+        '-r',
+        '-d',
+        './dags/',
+        'gs://europe-west3-retail-etl-com-934e0197-bucket/dags/',
+      ]
